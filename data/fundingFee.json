@@ -1,0 +1,21 @@
+{
+  "version": "VA 2025",
+  "purchase": {
+    "firstUse": {
+      "<5%": 0.0215,
+      "5-9.99%": 0.015,
+      ">=10%": 0.0125
+    },
+    "subsequent": {
+      "<5%": 0.033,
+      "5-9.99%": 0.015,
+      ">=10%": 0.0125
+    }
+  },
+  "irrrl": 0.005,
+  "exemptions": {
+    "disabledVeteran": true,
+    "survivingSpouse": true,
+    "purpleHeart": true
+  }
+}
